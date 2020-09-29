@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ONLINE_EXAM_PORTA/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ONLINE_EXAM_PORTA/static/js/main.0062fee8.chunk.js",
-    "main.js.map": "/ONLINE_EXAM_PORTA/static/js/main.0062fee8.chunk.js.map",
-    "runtime-main.js": "/ONLINE_EXAM_PORTA/static/js/runtime-main.a8a4caf8.js",
-    "runtime-main.js.map": "/ONLINE_EXAM_PORTA/static/js/runtime-main.a8a4caf8.js.map",
-    "static/js/2.99d075a1.chunk.js": "/ONLINE_EXAM_PORTA/static/js/2.99d075a1.chunk.js",
-    "static/js/2.99d075a1.chunk.js.map": "/ONLINE_EXAM_PORTA/static/js/2.99d075a1.chunk.js.map",
-    "index.html": "/ONLINE_EXAM_PORTA/index.html",
-    "precache-manifest.4b168a288fd9964166445c087ce92d8a.js": "/ONLINE_EXAM_PORTA/precache-manifest.4b168a288fd9964166445c087ce92d8a.js",
-    "service-worker.js": "/ONLINE_EXAM_PORTA/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/ONLINE_EXAM_PORTA/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.99d075a1.chunk.js.LICENSE.txt": "/ONLINE_EXAM_PORTA/static/js/2.99d075a1.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ONLINE_EXAM_PORTA/static/media/logo.09eb96bf.svg"
+    "main.css": "/ONLINEEXAMPORTAL/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ONLINEEXAMPORTAL/static/js/main.09104199.chunk.js",
+    "main.js.map": "/ONLINEEXAMPORTAL/static/js/main.09104199.chunk.js.map",
+    "runtime-main.js": "/ONLINEEXAMPORTAL/static/js/runtime-main.a1c73b6c.js",
+    "runtime-main.js.map": "/ONLINEEXAMPORTAL/static/js/runtime-main.a1c73b6c.js.map",
+    "static/js/2.99d075a1.chunk.js": "/ONLINEEXAMPORTAL/static/js/2.99d075a1.chunk.js",
+    "static/js/2.99d075a1.chunk.js.map": "/ONLINEEXAMPORTAL/static/js/2.99d075a1.chunk.js.map",
+    "index.html": "/ONLINEEXAMPORTAL/index.html",
+    "precache-manifest.c13d8fce1eb1dbb15bbd511ebdd8d445.js": "/ONLINEEXAMPORTAL/precache-manifest.c13d8fce1eb1dbb15bbd511ebdd8d445.js",
+    "service-worker.js": "/ONLINEEXAMPORTAL/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ONLINEEXAMPORTAL/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.99d075a1.chunk.js.LICENSE.txt": "/ONLINEEXAMPORTAL/static/js/2.99d075a1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ONLINEEXAMPORTAL/static/media/logo.09eb96bf.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8a4caf8.js",
+    "static/js/runtime-main.a1c73b6c.js",
     "static/js/2.99d075a1.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0062fee8.chunk.js"
+    "static/js/main.09104199.chunk.js"
   ]
 }
