@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9f9e492f4a6af5e9142c0484e7b050f",
+    "revision": "547b1381ddf93131b5c5aec573885312",
     "url": "/ONLINE_EXAM_PORTA/index.html"
   },
   {
-    "revision": "a63951a720eaf4407160",
+    "revision": "ad27644a43feb840a76e",
     "url": "/ONLINE_EXAM_PORTA/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ONLINE_EXAM_PORTA/static/js/2.99d075a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a63951a720eaf4407160",
-    "url": "/ONLINE_EXAM_PORTA/static/js/main.0c84a67f.chunk.js"
+    "revision": "ad27644a43feb840a76e",
+    "url": "/ONLINE_EXAM_PORTA/static/js/main.0062fee8.chunk.js"
   },
   {
     "revision": "80e78e55e4882886e26b",
