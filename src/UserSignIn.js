@@ -52,7 +52,7 @@ const UserSignIn = (props) => {
     
     else if(password.length<6 )
     {
-      return("Password must be 6 digits long")
+      return("Password must be 6 character long")
     }
   }
   function validateForm() {
@@ -63,7 +63,7 @@ const UserSignIn = (props) => {
         
         else if(username.length<3)
         {
-          return("Username must be 3 chars long");
+          return("UserId must be 3 digit long");
         }
         
     
@@ -174,9 +174,7 @@ const UserSignIn = (props) => {
 
 
         <Typography align="center">
-          <Link underline="always" href="/premium-themes/onepirate/forgot-password/">
-            Forgot password?
-          </Link>
+          
         </Typography>
       </AppForm>
       

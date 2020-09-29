@@ -65,6 +65,46 @@ export default function AdminSignUp() {
     
   }
 
+  function validateuser() {
+    if(adminId.length===0)
+        {
+          return null
+        }
+        
+        else if(adminId.length<3)
+        {
+          return("UserId must be 3 digits long");
+        }
+        
+    
+  }
+function validatepassword(){
+    
+    if(adminPin.length===0 )
+    {
+      return null
+    }
+    
+    else if(adminPin.length<6 )
+    {
+      return("Password must be 6 chars long")
+    }
+  }
+ function validatepass(){
+   if(adminPhone.length===0)
+        {
+          return null
+        }
+        
+    
+    else if(adminPhone.length<10)
+    {
+      return("Not a valid Number")
+    }
+    
+    
+  }
+
  
 
  
@@ -115,6 +155,9 @@ export default function AdminSignUp() {
             name="adminId"
             onChange={handleChange}
           />
+          <div style={{ fontSize: 11, color: "red"}}>
+            {validateuser()}
+            </div>
           <TextField
             variant="outlined"
             margin="normal"
@@ -126,6 +169,7 @@ export default function AdminSignUp() {
             name="adminName"
             onChange={handleChange}
           />
+          
           <TextField
             variant="outlined"
             margin="normal"
@@ -138,6 +182,9 @@ export default function AdminSignUp() {
             name="adminPin"
             onChange={handleChange}
           />
+          <div style={{ fontSize: 11, color: "red"}}>
+            {validatepassword()}
+            </div>
           <TextField
             variant="outlined"
             margin="normal"
@@ -151,6 +198,9 @@ export default function AdminSignUp() {
             autoComplete="current-password"
             onChange={handleChange}
           />
+          <div style={{ fontSize: 11, color: "red"}}>
+            {validatepass()}
+            </div>
          
 
           <FormButton

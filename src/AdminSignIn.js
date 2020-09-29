@@ -68,7 +68,7 @@ const SignIn = (props) => {
         
         else if(username.length<3)
         {
-          return("Username must be 3 digits long");
+          return("AdminId must be 3 digits long");
         }
         
     
@@ -194,7 +194,7 @@ const SignIn = (props) => {
 
         <Typography align="center">
           
-          <p>NOTE-PASSWORD IS YOUR USER PIN</p>
+          
         </Typography>
       </AppForm>
 

@@ -85,8 +85,48 @@ export default function UserSignUp() {
      return true;
           
   };
-
- 
+   function validateuser() {
+    if(userId.length===0)
+        {
+          return null
+        }
+        
+        else if(userId.length<3)
+        {
+          return("UserId must be 3 digits long");
+        }
+        
+    
+  }
+function validatepassword(){
+    
+    if(password.length===0 )
+    {
+      return null
+    }
+    
+    else if(password.length<6 )
+    {
+      return("Password must be 6 chars long")
+    }
+  }
+ function validatepass(){
+   if(email.length===0)
+        {
+          return null
+        }
+        
+    
+    if(email.includes('@'))
+    {
+      return null
+    }
+    
+    else if(!email.includes('@') )
+    {
+      return("Not a valid email")
+    }
+  }
 
  
 
@@ -138,9 +178,9 @@ export default function UserSignUp() {
             name="userId"
             onChange={handleChange}
           />
-          <div style={{ fontSize: 12, color: "red"}}>
-            {userinfo.useridError}
-          </div>
+          <div style={{ fontSize: 11, color: "red"}}>
+            {validateuser()}
+            </div>
           <TextField
             variant="outlined"
             margin="normal"
@@ -163,9 +203,13 @@ export default function UserSignUp() {
             name="email"
             onChange={handleChange}
           />
-          <div style={{ fontSize: 12, color: "red"}}>
+          <div style={{ fontSize: 11, color: "red"}}>
+            {validatepass()}
+            </div>
+         {/* <div style={{ fontSize: 12, color: "red"}}>
             {userinfo.emailError}
           </div>
+          */}
           <TextField
             variant="outlined"
             margin="normal"
@@ -179,10 +223,9 @@ export default function UserSignUp() {
             autoComplete="current-password"
             onChange={handleChange}
           />
-         <div style={{ fontSize: 12, color: "red"}}>
-            {userinfo.passwordError}
-          </div>
-
+         <div style={{ fontSize: 11, color: "red"}}>
+            {validatepassword()}
+            </div>
           <FormButton
             type="submit"
             className={classes.button}
